@@ -13,6 +13,15 @@ but following the developer instructions below is recommended.
 pip install git@github.com:infosec-garage/esrever.git
 ```
 
+### Installing Ghidra
+
+For now, [Ghidra](https://github.com/infosec-garage/esrever) needs to be manually installed, and esrever expects it to be installed in one of  the following locations:
+
+- `~/ghidra*`
+- `~/opt/ghidra*`
+- `/opt/ghidra*`
+
+
 ### For developers
 
 You can install an editable version of esrever by cloning this repository locally
