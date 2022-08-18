@@ -1,4 +1,4 @@
-# ƎƧЯƎVƎЯ
+# ƎƧЯƎVƎЯ (esrever)
 Quickly reverse binaries using ghidra.
 
 Welcome to the esrever documentation.
@@ -46,10 +46,18 @@ Auto-generated API documentation is _or rather, will be_ available at https://pa
 
 Quickly reverse binaries using ghidra
 
+### Single file
+
 ```console
 hunter@forest:~$ esrever decompile evil.dll
 ```
 
+### Pattern of files
+```console
+hunter@forest:~$ esrever decompile *.exe
+```
+
+### Refer to the built-in manual
 ```console
 hunter@forest:~$ esrever --help
 Usage: esrever [OPTIONS] COMMAND [ARGS]...
@@ -60,3 +68,5 @@ Options:
 Commands:
   decompile  Reverse a set of binary files with Ghidra.
 ```
+
+1
